@@ -38,7 +38,7 @@ Production-ready Terraform module that creates:
 
 ```hcl
 module "vpc_ec2" {
-  source = "github.com/YOUR_USERNAME/terraform-vpc-ec2-module"
+  source = "github.com/sagar3414/terraform-vpc-ec2-module"
 
   project_name       = "my-app"
   environment        = "dev"
